@@ -1,0 +1,81 @@
+# Compiled source #
+###################
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+# *.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Thumbs.db
+Icon^M^M
+
+# Drupal #
+##########
+sites/*/settings*.php
+sites/*/files
+sites/*/private
+*/sites/*/settings*.php
+*/sites/*/files/
+*/sites/*/private/
+
+# Other #
+#########
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
+
+# Patches
+#########
+# *.patch
+*.diff
+*.rej
+*.orig
+
+# Interdiffs
+#########
+interdiff*.txt
+
+# LibreOffice
+#########
+.~lock.*.csv#
+
+# PHPStorm #
+#########
+.idea/
+
+# VIM Ignores #
+#########
+*.swap
+
+# SASS #
+#########
+.sass-cache
+.sass-cache/*
+
+# CODEKIT #
+#########
+config.codekit
